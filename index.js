@@ -17,7 +17,8 @@ mjAPI.typeset(
   {
     math: yourMath,
     format: "TeX", // or "inline-TeX", "MathML"
-    svg: true // or svg:true, or html:true
+    xmlns: "mml",
+    mml: true,
   },
   function(data) {
     if (!data.errors) {

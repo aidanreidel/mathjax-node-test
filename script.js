@@ -9,5 +9,5 @@ fetch("http://localhost:3000/render")
       el.appendChild(el.ownerDocument.importNode(doc.documentElement, true));
     }
     console.log(data);
-    render_xml("foo", data.svg);
+    render_xml("foo", data.mml);
   });
